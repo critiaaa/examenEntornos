@@ -39,6 +39,10 @@ public class Array {
 		return encontrado;
 	}
 	
-	
+	public void sumar1EnArray () {
+		for (int i = 0 ; i < this.Array.length ; i++) {
+			this.Array[i]++;
+		}
+	}
 	
 }
